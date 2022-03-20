@@ -4,9 +4,6 @@ public class GameEntity {
     private int health;
     private int damage;
 
-    public GameEntity(){
-
-    }
     public int getHealth() { return health; }
 
     public void setHealth(int health) { this.health = health; }
@@ -14,6 +11,8 @@ public class GameEntity {
     public int getDamage() { return damage; }
 
     public void setDamage(int damage) { this.damage = damage; }
+    public String printInfo(){return "Health: "+health+" "+"Damage: "+damage;}
+
 
 
 

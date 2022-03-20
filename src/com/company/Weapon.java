@@ -19,4 +19,5 @@ public class Weapon {
     public void setNameOfWeapon(String nameOfWeapon) { this.nameOfWeapon = nameOfWeapon; }
 
 
+
 }
